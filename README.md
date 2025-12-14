@@ -1,10 +1,10 @@
-# Helloworld Project
+# Helloworld Project (Readme Written By Gemini 3)
 
 ## Setup & Run
 
 ### 1. Clone the repository and run everything
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/murtiunlimited/helloworld.git
 cd helloworld
 
 # Train the model
