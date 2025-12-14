@@ -1,8 +1,11 @@
-## clone repo
+# Helloworld Project
 
-## do from root folder: 
-## python -m src.models.train
+## Setup & Run
 
-## On another terminal: python -m backend.app
-
-## on main terminal: streamlit run frontend/app.py
+### 1. Clone the repository
+```bash
+git clone <your-repo-url>
+cd helloworld
+python -m src.models.train
+python -m backend.app
+streamlit run frontend/app.py
