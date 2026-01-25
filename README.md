@@ -4,7 +4,7 @@
 
 ## Project Folder Structure
 ```text
-project_root/
+helloworld/
 │
 ├── backend/
 │ └── app.py # Backend application code
