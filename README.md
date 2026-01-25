@@ -2,7 +2,7 @@
 
 ## Project Folder Structure
 ```text
-project_name/
+helloworld/
 │
 ├── backend/
 │   └── app.py
@@ -27,9 +27,9 @@ project_name/
 │   │   └── train.py       
 │   │
 │   └── utils/
-│       ├── __init__.py      
-│       ├── save_model.py    
-│       └── __init__.py     
+│   │    ├── __init__.py      
+│   │    ├── save_model.py    
+│   ├── __init__.py     
 │
 ├── Dockerfile              
 ├── README.md                
