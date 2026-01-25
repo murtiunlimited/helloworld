@@ -4,31 +4,40 @@
 
 ## Project Folder Structure
 ```text
-helloworld/
+project_name/
 │
 ├── backend/
-│ └── app.py # Backend application code
+│   └── app.py
 │
 ├── data/
-│ ├── iris.csv # Dataset file (CSV format)
+│   └── iris.csv
 │
 ├── frontend/
-│ └── app.py # Frontend application code
+│   └── app.py
 │
 ├── models/
-│ └── iris_nb.pkl # Pickled machine learning model file
-│
+│   └── iris_nb.pkl
 │
 ├── src/
-│ ├── init.py # Marks this directory as a package
-│ ├── data/ # Data-related helper modules
-│ ├── models/ # Model-related helper modules
-│ └── utils/ # Utility/helper functions
+│   ├── data/
+│   │   ├── __init__.py
+│   │   └── load_data.py
+│   │
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── predict.py    
+│   │   └── train.py       
+│   │
+│   └── utils/
+│       ├── __init__.py      
+│       ├── save_model.py    
+│       └── __init__.py     
 │
-└── start.sh # Shell script to start the project
-└──README.md # Project documentation file
-└── requirements.txt # Python dependencies list
-└── Dockerfile
+├── Dockerfile              
+├── README.md                
+├── requirements.txt        
+└── start.sh              
+
 ```
 ### 1. Clone the repository and run everything
 ```bash
