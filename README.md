@@ -11,7 +11,6 @@ helloworld/
 │
 ├── data/
 │ ├── iris.csv # Dataset file (CSV format)
-│ └── Dockerfile # Docker configuration file
 │
 ├── frontend/
 │ └── app.py # Frontend application code
@@ -19,8 +18,6 @@ helloworld/
 ├── models/
 │ └── iris_nb.pkl # Pickled machine learning model file
 │
-├── README.md # Project documentation file
-├── requirements.txt # Python dependencies list
 │
 ├── src/
 │ ├── init.py # Marks this directory as a package
@@ -29,6 +26,9 @@ helloworld/
 │ └── utils/ # Utility/helper functions
 │
 └── start.sh # Shell script to start the project
+└──README.md # Project documentation file
+└── requirements.txt # Python dependencies list
+└── Dockerfile
 ```
 ### 1. Clone the repository and run everything
 ```bash
