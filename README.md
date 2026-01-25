@@ -1,7 +1,5 @@
 # Helloworld Project (Readme Written By Gemini 3)
 
-## Setup & Run
-
 ## Project Folder Structure
 ```text
 project_name/
